@@ -1021,3 +1021,14 @@ blockquote {
 		top: 0px;
 	}
 }
+
+@media only screen and (min-width: 1200px) {
+	.section.started .started-content .logo{
+		top: -12.5vh;
+		left: -18.5vw;
+		width: 45vw;
+		height: 45vw;
+	}
+	
+}
+
