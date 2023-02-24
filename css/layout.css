@@ -949,10 +949,10 @@
 /* section started desktop */
 @media (min-width: 1200px) {
 	.section.started .started-content .logo {
-		top: -11.5vh;
+		top: -12.5vh;
 		left: -18.5vw;
-		width: 56vw;
-		height: 80vh;
+		width: 45vw;
+		height: 45vw;
 	}
 	.section.started.personal .started-content .h-title {
 		margin-left: 0;
