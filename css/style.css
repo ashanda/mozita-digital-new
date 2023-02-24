@@ -36,14 +36,14 @@
   }
 }
 
-@media (max-width: 1190px) {
-  .section.started .started-content .logo {
-    top: 4px;
-    left: -150px;
-    width: 600px;
-    height: 600px;
-  }
-}
+@media (max-width: 1190px){
+    .section.started .started-content .logo {
+		top: 4px;
+		left: -150px;
+		width: 600px;
+		height: 600px;
+	}
+} 
 
 /* Kasun */
 .hover-masks-logo span {
