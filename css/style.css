@@ -68,13 +68,20 @@
 
 
 /* Kasun */
+
+.log_img2 {
+  margin-top: -10px;
+}
 .hover-masks-logo span {
   display: inline-block;
-  transition: 0.5s;
+  transition: 0.4s;
+}
+.hover-masks-logo .sp_right1{
+	margin-left: -154px;
 }
 .hover-masks-logo:hover .sp_left1{
-	margin-left: -150px;
+	margin-left: -154px;
 }
 .hover-masks-logo:hover .sp_right1{
-	margin-left: -150px;
+	margin-left: 0px;
 }
