@@ -1,38 +1,47 @@
 @media (min-width: 1200px) {
-    .section.started .started-content .logo {
-		top: -18.5vh;
-		left: -18.5vw;
-		width: 35vw;
-		height: 35vw;
-	}
+  .section.started .started-content .logo {
+    top: -18.5vh;
+    left: -18.5vw;
+    width: 35vw;
+    height: 35vw;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
-    .section.started .started-content .logo {
-		top: -2.5vh;
-		left: -18.5vh;
-		width: 52vw;
-		height: 52vw;
-	}
+  .section.started .started-content .logo {
+    top: -2.5vh;
+    left: -18.5vh;
+    width: 52vw;
+    height: 52vw;
+  }
 }
 
+@media (max-width: 576px) {
+  .section.started.personal .started-content .typed-subtitle,
+  .section.started.personal .started-content .typed-bread {
+    left: 0;
+    bottom: 44px;
+    padding-right: 50px;
+    font-size: 35px;
+    line-height: 46px;
+  }
+}
 
-
-@media (max-width: 768px){
-    .section.started .started-content .logo {
-		top: 4px;
-		left: -150px;
-		width: 600px;
-		height: 600px;
-	}
+@media (max-width: 768px) {
+  .section.started .started-content .logo {
+    top: 4px;
+    left: -150px;
+    width: 600px;
+    height: 600px;
+  }
 }
 
 @media (max-width: 1190px){
     .section.started .started-content .logo {
 		top: 4px;
 		left: -150px;
-		width: 800px;
-		height: 800px;
+		width: 600px;
+		height: 600px;
 	}
 
     .section.started.personal .started-content .h-title {
@@ -55,4 +64,17 @@
         left: 24%;
         top: 58%;
     }
+}
+
+
+/* Kasun */
+.hover-masks-logo span {
+  display: inline-block;
+  transition: 0.5s;
+}
+.hover-masks-logo:hover .sp_left1{
+	margin-left: -150px;
+}
+.hover-masks-logo:hover .sp_right1{
+	margin-left: -150px;
 }
