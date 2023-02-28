@@ -1,3 +1,4 @@
+
 /**
 *	Cvio - Resume/CV Template (HTML)
 *	Version: 1.1
@@ -489,7 +490,7 @@
 		margin-right: -6px;
 	}
 
-
+	
 	.header .menu-btn {
 		display: block;
 		float: right;
@@ -553,7 +554,7 @@
 .section .content-box {
 	margin-right: -1px;
 	padding: 35px;
-	font-size: 16px;
+	font-size: 15px;
 	background: #101010;
 	border: 1px solid rgba(255, 255, 255, 0.07);
 }
@@ -587,7 +588,7 @@
 		padding-left: 50px;
 		padding-right: 50px;
 	}
-
+	
 }
 
 /* section mobile */
@@ -670,7 +671,7 @@
 	left: 0;
 	width: 100%;
 	display: block;
-	font-size: 90px;
+	font-size: 65px;
 	line-height: 90px;
 	font-weight: 500;
 	color: #FFF;
@@ -975,7 +976,7 @@
 		left: 50px;
 	}
 
-
+	
 	.section.started .started-content .h-title br {
 		display: none;
 	}
@@ -1033,7 +1034,7 @@
 		margin-left: 0;
 	}
 
-
+	
 	.section.started .mouse_btn {
 		left: auto;
 		right: 120px;
@@ -1138,7 +1139,7 @@
 		bottom: 150px;
 	}
 
-
+	
 	.section.started.section-title .started-content .h-subtitle,
 	.section.started.section-title .started-content .typed-subtitle,
 	.section.started.section-title .started-content .typed-bread {
@@ -1275,7 +1276,7 @@
 		margin-bottom: 25px;
 	}
 
-
+	
 	.section.about .desc {
 		margin-left: 145px;
 	}
@@ -3081,7 +3082,7 @@
 		margin-right: 0;
 	}
 
-
+	
 	.box-items .box-item {
 		padding-left: 0;
 		padding-right: 0;
@@ -4738,6 +4739,10 @@ iframe, object {
 .background-enabled .section.started .started-content .typed-cursor,
 .background-enabled .section.started .mouse_btn {
 	color: #FFF;
+}
+
+.background-enabled .section.started .started-content .typed-subtitle{
+	font-size: 40px;
 }
 
 
