@@ -24,6 +24,10 @@
 */
 
 /* - Header */
+
+html{
+	scroll-behavior: smooth;
+}
 .header {
 	padding: 50px;
 	position: fixed;
@@ -4988,6 +4992,109 @@ p {
     padding-top: 20px;
 }
 
+.image-box {
+    display: inline-flex;
+    /* padding: 0px 20px; */
+}
+
+.image-box .image {
+    padding: 0px 20px;
+}
+
+.image-box-new {
+    width: 100%;
+}
+
+.image-box {
+    margin: 0 auto;
+}
+
+.i-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+    transition: .8s ease;
+    background-color: #ed2133;
+    border-radius: 50%;
+}
+
+.i-box:hover .overlay {
+	opacity: 0.8;
+	width: 200%;
+	height: 200%;
+	padding: 0px 40px;
+  }
+
+  .text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+
+  .box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+
+  .box span{
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-bottom: 3px solid #fff;
+	border-right: 3px solid #fff;
+	transform: rotate(45deg);
+	margin: -1px;
+	animation: scroll 2s infinite;
+	
+  }
+
+  .box span:nth-child(2){
+	animation-delay: -.2s;
+  }
+
+  .box span:nth-child(2){
+	animation-delay: -.4s;
+  }
+
+  @keyframes scroll {
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20%, -20%);
+	}
+
+	50%{
+		opacity: 1;
+	}
+
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20%, 20%);
+	}
+  }
+
 /*footer*/
 .copy a {
     color: #c6c6c6;
@@ -5060,6 +5167,25 @@ p {
 		margin-right: 0px;
 		margin-top: 30px;
 		text-align: center;
+	}
+
+	.links {
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+	.image-box {
+		display: block;
+		/* padding: 0px 20px; */
+		margin-bottom: 20px;
+	}
+
+	.i-box {
+		padding-bottom: 20px;
+	}
+
+	.desc {
+		padding-top: 0px;
 	}
 
 /* 	
