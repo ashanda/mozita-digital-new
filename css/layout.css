@@ -1275,16 +1275,15 @@ html{
 /* section about tablet */
 @media (max-width: 1199px) {
 	.section.about .image {
-		width: 120px;
+		width: 160px;
 		margin-right: 0;
 		margin-bottom: 25px;
 	}
 
 	
 	.section.about .desc {
-		margin-left: 145px;
+		margin-left: 184px;
 	}
-
 }
 
 /* section about mobile */
@@ -4989,7 +4988,7 @@ p {
     margin: 0px 0px 20px 0px;
 }
 .desc {
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 .image-box {
@@ -5111,14 +5110,22 @@ p {
 	font-weight: 600;
 }
 
+.service-list1 li{
+	list-style: none;
+}
+.service-list1 li span {
+    padding-right: 8px;
+    color: #ed2133;
+}
+
 @media (max-width: 576px) {
 	.section.about3 .content.content-box {
 		display: inline-block;
 	}
 
 	.desc-about {
-		padding-left: 0px;
-		padding-top: 20px;
+		padding: 20px;
+		text-align: left;
 	}
 
 	.row.image-box {
@@ -5160,18 +5167,15 @@ p {
 
 	.section.about .image {
 		width: 100%;
-		text-align: center;
+		text-align: left;
 	}
 
 	.desc1 {
-		margin-right: 0px;
-		margin-top: 30px;
-		text-align: center;
+		text-align: left;
+		margin: 20px;
 	}
-
 	.links {
-		text-align: center;
-		padding-bottom: 10px;
+		text-align: left;
 	}
 
 	.image-box {
@@ -5188,9 +5192,135 @@ p {
 		padding-top: 0px;
 	}
 
-/* 	
-	div#section-about3 .image{
+	.footer .copy {
+		text-align: left;
+		padding-left: 30px;
+	}
+
+	.links a {
+		margin-left: 30px;
+	}
+
+	.footer .soc-box {
+		text-align: left;
+		margin-left: 20px;
+		margin-top: 11px;
+	}
+
+	.image-box {
+		text-align: left;
+		margin: 0;
+	}
+
+	.section .content-box {
+		padding: 25px 0px 0px 0px;
+	}
+
+
+	.image-aboutus img {
+		width: 100%;
+		height: auto;
+		padding: 20px;
+	}
+
+	.title_inner {
+		margin-left: 0px;
+		text-align: left;
+		font-size: 30px;
+	}
+
+	.image-service img {
+		width: 100%;
+		height: auto;
+	}
+
+	.image-box {
+		width: 100%;
+	}
+
+	.desc-service {
+		margin: 20px;
+	}
+
+	.section.about .image img {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		padding: 20px;
+	}
+
+	.desc-sub-service {
 		text-align: center;
-	} */
+		margin: 20px;
+	}
+
+	.section.about .image1 img {
+		padding: 20px;
+	}
+
+	.desc p {
+		margin: 20px;
+	}
+
+	.section.started.layout-creative .started-content {
+		text-align: left;
+	}
+
+	.section.started.section-title .started-content .typed-bread, .section.started.layout-creative .started-content .typed-bread, .background-enabled .section.started.section-title .started-content .typed-bread, .background-enabled .section.started.layout-creative .started-content .typed-bread {
+		text-align: left;
+	}
+
+	div#section-history {
+		text-align: left;
+	}
+
+	div#section-skills-know {
+		text-align: left;
+	}
+
+	.skills.list ul li .name {
+		padding-left: 30px;
+	}
+
+	.links.links-home a {
+		margin-left: 0px;
+	}
+
+	.links.links-home{
+		text-align: left;
+	}
+
+	.resume-item.content-box.active {
+		padding: 20px;
+	}
+
+	.resume-item.content-box {
+		padding: 20px;
+	}
+
+	.section.about .desc {
+		margin-left: 0;
+		text-align: left;
+		/* margin-left: 20px; */
+	}
+
+	.title_inner1 {
+		margin-left: 20px;
+	}
+
+	.service-list {
+		margin: 0px 20px;
+	}
+
+	.title_inner1 {
+		margin-left: 0px;
+	}
+
+	.service-list {
+		margin: 0px 20px;
+	}
+
+
+
 
 }

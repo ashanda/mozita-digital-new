@@ -55,13 +55,13 @@
         left: 0;
         bottom: 44px;
         padding-right: 50px;
-        font-size: 35px;
-        line-height: 46px;
+        font-size: 22px;
+        line-height: 35px;
     }
 
 	
     .section.started.personal .started-content .h-title {
-        left: 24%;
+        left: 17%;
         top: 58%;
     }
 }
