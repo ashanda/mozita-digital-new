@@ -85,3 +85,11 @@
 .hover-masks-logo:hover .sp_right1{
 	margin-left: 0px;
 }
+
+/* on map title  */
+.started-content{
+  margin-top: 90px;
+}
+.map iframe{
+  filter: invert(100%);
+}
