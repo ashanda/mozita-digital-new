@@ -117,19 +117,3 @@
 .hover-masks-logo:hover .sp_right1 {
   margin-left: 0px;
 }
-
-
-/* Sammani */
-.service-item.content-box:hover {
-  background: #ed2133;
-}
-
-.service-items .service-item .icon:hover {
-  color: #101010;
-}
-
-.service-items .service-item .name:hover {
-  margin: 15px 0;
-  color: #bbb;
-  font-weight: 500;
-}
