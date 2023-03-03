@@ -1,9 +1,18 @@
+/* @media (min-width: 1080px) and (max-width: 1920px) {
+  .section.started .started-content .logo {
+    top: -2.5vh;
+    left: -18.5vh;
+    width: 55vw;
+    height: 52vw;
+  }
+} */
+
 @media (min-width: 1200px) {
   .section.started .started-content .logo {
     top: -18.5vh;
     left: -18.5vw;
-    width: 35vw;
-    height: 35vw;
+    width: 40vw;
+    height: 40vw;
   }
 }
 
@@ -26,6 +35,8 @@
     font-size: 35px;
     line-height: 46px;
   }
+
+
 }
 
 @media (max-width: 768px) {
@@ -75,7 +86,7 @@
   .home .footer {
     bottom: 51px;
     top: auto;
-    left: 30px;
+    left: 2px;
     right: 30px;
   }
 
@@ -117,3 +128,11 @@
 .hover-masks-logo:hover .sp_right1 {
   margin-left: 0px;
 }
+
+
+/*sammani*/
+a.email-decoration {
+  color: #bbb;
+  text-decoration: none;
+}
+

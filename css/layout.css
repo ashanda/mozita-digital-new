@@ -5193,6 +5193,10 @@ p {
 	float: right;
 }
 
+.links {
+    float: right;
+}
+
 p.service-main-para {
 	margin: 20px 20px 20px 13px;
 	text-align: justify;
@@ -5527,7 +5531,6 @@ p.service-main-para {
 		margin-left: 5px;
 		margin-top: -18px;
 	}
-
 	p.service-main-para {
 		margin: 0px 0px 0px 0px;
 		text-align: justify;
@@ -5541,6 +5544,23 @@ p.service-main-para {
 		display: none;
 	}
 
+	.background-enabled .section.started .started-content .typed-subtitle{
+		font-size: 20px;
+	  }
+
+	  .section.works .filters {
+		padding: 0px 0px 20px 20px;
+	}
+
+	input[type="text"], input[type="email"], textarea {
+		padding-left: 10px;
+	}
+
+	.group-bts.contact-btn {
+		padding-left: 10px;
+	}
+
 	
+
 
 }
