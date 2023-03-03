@@ -136,3 +136,23 @@ a.email-decoration {
   text-decoration: none;
 }
 
+.service-item.content-box:hover {
+  cursor: pointer;
+  background: #ed2133;
+}
+
+.service-items .service-item .name:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.service-item.content-box:hover .icon {
+  color: #101010;
+  cursor: pointer;
+}
+
+.links a:hover{
+  color: #ed2133;
+  cursor: pointer;
+}
+
