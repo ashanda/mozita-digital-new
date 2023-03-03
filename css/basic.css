@@ -537,7 +537,7 @@ a.btn .lnk,
 
 a.btn:hover,
 .btn:hover {
-	color: #101010;
+	color: #ffffff;
 }
 
 @media screen and (max-width: 720px) {
@@ -602,7 +602,7 @@ button {
 }
 
 button:hover {
-	border-bottom: 1px solid #4bffa5;
+	border-bottom: 1px solid #ed2133;
 }
 
 label,

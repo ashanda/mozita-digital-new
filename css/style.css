@@ -17,6 +17,7 @@
 }
 
 @media (max-width: 576px) {
+
   .section.started.personal .started-content .typed-subtitle,
   .section.started.personal .started-content .typed-bread {
     left: 0;
@@ -36,34 +37,61 @@
   }
 }
 
-@media (max-width: 1190px){
-    .section.started .started-content .logo {
-		top: 4px;
-		left: -150px;
-		width: 600px;
-		height: 600px;
-	}
+@media (max-width: 1190px) {
+  .section.started .started-content .logo {
+    top: 4px;
+    left: -150px;
+    width: 600px;
+    height: 600px;
+  }
 
-    .section.started.personal .started-content .h-title {
-        left: 50%;
-        top: 50%;
-    }
-} 
+  .section.started.personal .started-content .h-title {
+    left: 50%;
+    top: 50%;
+  }
+}
 
-@media (max-width: 576px) { 
-    .section.started.personal .started-content .typed-subtitle, .section.started.personal .started-content .typed-bread {
-        left: 0;
-        bottom: 44px;
-        padding-right: 50px;
-        font-size: 22px;
-        line-height: 35px;
-    }
+@media (max-width: 576px) {
 
-	
-    .section.started.personal .started-content .h-title {
-        left: 17%;
-        top: 58%;
-    }
+  .section.started.personal .started-content .typed-subtitle,
+  .section.started.personal .started-content .typed-bread {
+    left: 0;
+    bottom: 44px;
+    padding-right: 50px;
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+
+  .section.started.personal .started-content .h-title {
+    left: 17%;
+    top: 58%;
+  }
+
+  .section.started.personal .started-content .h-title {
+    top: 53px;
+  }
+
+  .home .footer {
+    bottom: 51px;
+    top: auto;
+    left: 30px;
+    right: 30px;
+  }
+
+  .section.started.personal .started-content .h-title {
+    left: 17%;
+    top: 52%;
+  }
+
+  .section.started.personal .started-content .typed-subtitle,
+  .section.started.personal .started-content .typed-bread {
+    bottom: 80px;
+  }
+
+  .image.image-multimedia {
+    padding: 0px 0px;
+  }
 }
 
 
@@ -72,16 +100,36 @@
 .log_img2 {
   margin-top: -10px;
 }
+
 .hover-masks-logo span {
   display: inline-block;
   transition: 0.4s;
 }
-.hover-masks-logo .sp_right1{
-	margin-left: -154px;
+
+.hover-masks-logo .sp_right1 {
+  margin-left: -154px;
 }
-.hover-masks-logo:hover .sp_left1{
-	margin-left: -154px;
+
+.hover-masks-logo:hover .sp_left1 {
+  margin-left: -154px;
 }
-.hover-masks-logo:hover .sp_right1{
-	margin-left: 0px;
+
+.hover-masks-logo:hover .sp_right1 {
+  margin-left: 0px;
+}
+
+
+/* Sammani */
+.service-item.content-box:hover {
+  background: #ed2133;
+}
+
+.service-items .service-item .icon:hover {
+  color: #101010;
+}
+
+.service-items .service-item .name:hover {
+  margin: 15px 0;
+  color: #bbb;
+  font-weight: 500;
 }
