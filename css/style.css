@@ -84,8 +84,8 @@
   } */
 
   .footer .copy {
-    margin: 0px 0 0 20px;
-  }
+    margin: 0px 0 0 0px;
+}
 
   .footer .soc-box {
     margin-left: 35px;
