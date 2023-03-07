@@ -84,8 +84,8 @@
   } */
 
   .footer .copy {
-    margin: 0px 0 0 0px;
-}
+    margin: 0px 0 0 5px;
+  }
 
   .footer .soc-box {
     margin-left: 35px;
@@ -160,6 +160,14 @@
   .content.content-box.cont-box-ser {
     padding: 20px 20px 20px 20px;
   }
+
+  .footer p {
+    margin: 0px 0 0 40px;
+  }
+
+  .copy.copy-home p {
+    margin: -10px 0 0 25px;
+}
 }
 
 

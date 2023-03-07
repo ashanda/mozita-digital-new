@@ -566,7 +566,7 @@ html {
 
 .section .content-box {
 	margin-right: 0px;
-	padding: 20px 0px;
+	padding: 20px 20px;
 	font-size: 15px;
 	background: #101010;
 	border: 1px solid rgba(255, 255, 255, 0.07);
