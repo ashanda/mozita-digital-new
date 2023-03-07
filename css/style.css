@@ -143,7 +143,8 @@
 
   .section .content-box {
     margin-right: 0px;
-    padding: 20px 0px 0px 0px;
+    /* padding: 20px 0px 0px 0px; */
+    padding: 20px 20px;
   }
 
   .content.content-box.cont-box-ser {
@@ -197,6 +198,10 @@
 /* contact page box height */
 .service-item.content-box {
   height: 100%;
+}
+/* on map text styles */
+.section.started.section-title .started-content .h-title{
+  margin-top: 100px;
 }
 
 /*sammani*/
