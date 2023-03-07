@@ -1,8 +1,8 @@
 /**
- *	Cvio - Resume/CV Template (HTML)
- *	Author: beshleyua
- *	Author URL: http://themeforest.net/user/beshleyua
- *	Copyright © Cvio by beshleyua. All Rights Reserved.
+ *	Mozita Digital (HTML)
+ *	Author: Mozita Digital
+ *	Author URL: http://themeforest.net/user/Mozita Digital
+ *	Copyright © Mozita Digital. All Rights Reserved.
  **/
 
 (function ($) {
