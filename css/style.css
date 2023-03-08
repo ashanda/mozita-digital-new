@@ -24,10 +24,9 @@
     height: 52vw;
   }
 
-
-  .footer p {
+  /* .footer p {
     margin: -5px 0 0 0px;
-  }
+  } */
 
   .footer .copy {
     margin: 0px 0 0 0px;
@@ -35,7 +34,6 @@
 }
 
 @media (max-width: 576px) {
-
   .section.started.personal .started-content .typed-subtitle,
   .section.started.personal .started-content .typed-bread {
     left: 0;
@@ -44,11 +42,7 @@
     font-size: 35px;
     line-height: 46px;
   }
-
-
 }
-
-
 
 @media (max-width: 1190px) {
   .section.started .started-content .logo {
@@ -66,9 +60,7 @@
   /* .section .content-box {
   padding: 20px 0px;
 } */
-
 }
-
 
 @media (max-width: 768px) {
   .section.started .started-content .logo {
@@ -99,11 +91,9 @@
   .content.content-box.cont-box-ser {
     padding: 20px 20px;
   }
-
 }
 
 @media (max-width: 576px) {
-
   .section.started.personal .started-content .typed-subtitle,
   .section.started.personal .started-content .typed-bread {
     left: 0;
@@ -112,7 +102,6 @@
     font-size: 22px;
     line-height: 35px;
   }
-
 
   .section.started.personal .started-content .h-title {
     left: 17%;
@@ -154,7 +143,8 @@
 
   .section .content-box {
     margin-right: 0px;
-    padding: 20px 0px 0px 0px;
+    /* padding: 20px 0px 0px 0px; */
+    padding: 20px 20px;
   }
 
   .content.content-box.cont-box-ser {
@@ -164,15 +154,21 @@
   .footer p {
     margin: 0px 0 0 40px;
   }
-
+  .copy.copy-home {
+    margin-top: -20px;
+  }
   .copy.copy-home p {
-    margin: -10px 0 0 25px;
+    margin: 0 0 0 25px;
+  }
 }
-}
-
 
 /* Kasun */
-
+.header .logo {
+  width: 120px;
+}
+.header .logo img {
+  width: 120px;
+}
 .log_img2 {
   margin-top: -10px;
 }
@@ -183,17 +179,30 @@
 }
 
 .hover-masks-logo .sp_right1 {
-  margin-left: -154px;
+  margin-left: -124px;
 }
 
 .hover-masks-logo:hover .sp_left1 {
-  margin-left: -154px;
+  margin-left: -124px;
 }
 
 .hover-masks-logo:hover .sp_right1 {
   margin-left: 0px;
 }
-
+/* Footer responsive */
+@media (min-width: 991px) and (max-width: 1199px) {
+  .footer .copy {
+    padding-left: 25px;
+  }
+}
+/* contact page box height */
+.service-item.content-box {
+  height: 100%;
+}
+/* on map text styles */
+.section.started.section-title .started-content .h-title{
+  margin-top: 100px;
+}
 
 /*sammani*/
 a.email-decoration {
