@@ -229,3 +229,10 @@ a.email-decoration {
   color: #ed2133;
   cursor: pointer;
 }
+
+.policy h4{
+  color: #fff;
+}
+.mt-5{
+  margin-top: 5px;
+}
