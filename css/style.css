@@ -200,7 +200,7 @@
   height: 100%;
 }
 /* on map text styles */
-.section.started.section-title .started-content .h-title{
+.section.started.section-title .started-content .h-title {
   margin-top: 100px;
 }
 
@@ -230,9 +230,41 @@ a.email-decoration {
   cursor: pointer;
 }
 
-.policy h4{
+.policy h4 {
   color: #fff;
 }
-.mt-5{
+.mt-5 {
   margin-top: 5px;
+}
+
+/* pdf downlolad buttuon */
+.bts .logo {
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 2.5;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  white-space: nowrap;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  float: right;
+  margin-top: 20px;
+  width: 51%;
+}
+
+.bts .logo a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  display: block;
+}
+
+.bts .logo strong {
+  color: #fff;
+}
+@media (max-width: 576px) {
+  .bts .logo {
+    display: contents;
+  }
 }
